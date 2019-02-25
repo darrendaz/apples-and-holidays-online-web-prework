@@ -108,10 +108,6 @@ def all_holidays_with_bbq(holiday_hash)
       if item.include?("BBQ")
           key
       end
-      
-      # if list includes the word "BBQ"
-      #   # store the holiday in the array
-      # end
     }
   }.flatten.compact
 
