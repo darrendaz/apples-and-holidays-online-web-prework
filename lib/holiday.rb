@@ -107,11 +107,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday_hash[season].collect {|key, item|
       binding.pry
       if item.include?("BBQ")
-          if key.to_s.include?("_")
-            key.to_s.split("_").map {|item| item.capitalize}.join(" ")
-          else
-            key.to_s.capitalize
-          end
+          key
       end
       
       # if list includes the word "BBQ"
