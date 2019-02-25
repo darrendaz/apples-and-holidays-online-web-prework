@@ -114,7 +114,7 @@ def all_holidays_with_bbq(holiday_hash)
       #   # store the holiday in the array
       # end
     }
-  }
+  }.flatten
 
 end
 
