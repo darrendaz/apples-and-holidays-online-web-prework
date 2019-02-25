@@ -105,7 +105,6 @@ def all_holidays_with_bbq(holiday_hash)
   
   holiday_hash.collect {|season, holiday|
     holiday_hash[season].collect {|key, item|
-      binding.pry
       if item.include?("BBQ")
           key
       end
